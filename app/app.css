@@ -1,0 +1,55 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+
+.PhoneListController ul{list-style: none;margin: 10px; padding: 0;box-sizing: border-box;margin-top: 10px}
+.PhoneListController ul img{height: 100px}
+.PhoneListController ul > li{border: 1px solid #000000;padding: 5px;}
+.PhoneListController ul > li + li{margin-top: 10px}
+
+.phone-images {
+  background-color: white;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  }
+
+  img.phone {
+    float: left;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding: 2em;
+    height: 400px;
+    width: 400px;
+    display: none;
+    }
+    
+    img.phone:first-child {
+    display: block;
+    }
